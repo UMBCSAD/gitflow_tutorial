@@ -5,6 +5,10 @@ def isEven(num):
         return False;
     elif num == 2:
         return True
+    elif num == 3:
+        return False
+    elif num == 4:
+        return True
     else:
         print("Not implemented")
         return False
@@ -15,6 +19,6 @@ def main():
     lst = [2,4,6,7,9]
     for l in lst:
         print(isEven(l))
-        
+
 
 main()
